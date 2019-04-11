@@ -1,0 +1,45 @@
+body {
+    color: blue;
+}
+
+p {
+    text-align: center;
+    color: purple;
+  }
+
+#Form-section {
+    color: lightblue;
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+        background-color: rgb(19, 136, 151);
+        font-size: 200%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        background-color: pink;
+        font-size: 300%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: brown;
+        font-size: 400%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: green;
+        font-size: 500%;
+    }
+}
+
+
+
+
+
