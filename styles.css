@@ -9,7 +9,6 @@ p {
     text-shadow: 4px 4px 4px rgb(133, 132, 132);
   }
 
-  
 #Form-section {
     color: lightblue;
     padding: 20px;
@@ -18,12 +17,19 @@ p {
 #Page-heading {
     text-align: center;
     color: wheat;
-    font-size: 80px;
+    font-size: 100px;
     background-color: #9999ff;
+    animation-name: headcolor;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
 }
 
 #list-description {
     color: black;
+}
+
+table {
+    border: solid rgb(128, 75, 128) 20px;
 }
 
 td {
@@ -32,9 +38,16 @@ td {
     background-color: #ffcc99;
 }
 
-footer {
-    padding: 20px;
+span {
+    margin: 20px;
+    color: white;
+    background-color: navy;
 }
+
+@keyframes headcolor {
+    from {background-color:  #9999ff;}
+    to {background-color: mediumseagreen;}
+  }
 
 .custom {
     cursor: url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/mozilla/36/personal-computer_1f4bb.png), auto;
