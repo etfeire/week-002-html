@@ -1,14 +1,23 @@
 body {
-    color: blue;
+    background-color: lightblue;
+}
+
+h1 {
+    background-color: pink;
 }
 
 p {
     text-align: center;
-    color: purple;
+    color: white;
+    font-size: 40px;
   }
 
 #Form-section {
     color: lightblue;
+}
+
+td {
+    font-size: 20px;
 }
 
 @media only screen and (max-width: 1200px) {
