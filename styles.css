@@ -1,24 +1,44 @@
 body {
-    background-color: lightblue;
-}
-
-h1 {
-    background-color: pink;
+    background: lightblue url("https://s3.amazonaws.com/media.eremedia.com/uploads/2017/07/pt.jpg") repeat-y right top;
 }
 
 p {
-    text-align: center;
     color: white;
     font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+    text-shadow: 4px 4px 4px rgb(133, 132, 132);
   }
 
+  
 #Form-section {
     color: lightblue;
+    padding: 20px;
+}
+
+#Page-heading {
+    text-align: center;
+    color: wheat;
+    font-size: 80px;
+    background-color: #9999ff;
+}
+
+#list-description {
+    color: black;
 }
 
 td {
     font-size: 20px;
+    color: #ff6699;
+    background-color: #ffcc99;
 }
+
+footer {
+    padding: 20px;
+}
+
+.custom {
+    cursor: url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/mozilla/36/personal-computer_1f4bb.png), auto;
+  }
 
 @media only screen and (max-width: 1200px) {
     body {
